@@ -1,17 +1,18 @@
-function asal() {
-var arr = [1,2,3];
-var removeLast = arr.pop()
-var removeFirst = arr.shift()
-var addLast = arr.push(11)
-var addFirst = arr.unshift(1)
-var addAndRemove = arr.splice(1,1,'added')
+function asal(umur){
+  var minimal= 17;
+  var setir = true;
 
-console.log(removeLast);
-console.log(removeFirst);
-console.log(addLast);
-console.log(addFirst);
-console.log(addAndRemove);
-return arr;
+  if (umur >= minimal) {
+    console.log("Anda Sudah Dewasa");
+    if (setir) {
+      console.log("Anda bisa dapat SIM");
+    }else{
+      console.log("Anda belum bisa dapat SIM")
+    }
+
+  }else {
+    console.log("Anda Belum Dewasa")
+  }
 }
 
-console.log(asal())
+asal(18);
