@@ -6,7 +6,7 @@ function panggilforEach() {
     console.log(index);
     console.log(array);
 
-  })
+    })
 }
 
 panggilforEach()

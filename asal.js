@@ -1,18 +1,12 @@
-function asal(umur){
-  var minimal= 17;
-  var setir = true;
-
-  if (umur >= minimal) {
-    console.log("Anda Sudah Dewasa");
-    if (setir) {
-      console.log("Anda bisa dapat SIM");
+function panggilregxp(kata) {
+    var result = /html|css/.test(kata);
+    if (result === true) {
+        console.log("Belajar");
     }else{
-      console.log("Anda belum bisa dapat SIM")
+    console.log(kata);
     }
-
-  }else {
-    console.log("Anda Belum Dewasa")
-  }
 }
-
-asal(18);
+console.log(panggilregxp("Belajar html"));
+console.log(panggilregxp("Belajar java"));
+console.log(panggilregxp("Belajar css"));
+console.log(panggilregxp("Belajar mysql"));

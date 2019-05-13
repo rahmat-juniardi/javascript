@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="utf-8">
+        <title>Javascript | NIOMIC</title>
+    </head>
+    <body>
+        <button type="button" onclick="javascript()">Jalan</button>
+        <input type="text" id="namadepan" value="rahmat">
+        <br>
+        <input type="text" id="namabelakang" value="juniardi">
+        <br>
+        <button type="button" onclick="nama()">Jalankan nama</button>
+
+        <script type="text/javascript">
+            function javascript() {
+                alert('berjalan dengan baik'); // muncul di pop-up 
+                console.log('berjalan'); // muncul di console web/ inspect element                
+            }
+
+            function nama() {
+                console.log(document.getElementById('namadepan'));
+                console.log(document.getElementById('namabelakang'));
+            }
+        </script>
+    </body>
+</html>
