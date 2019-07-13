@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS Event | DOM Selector</title>
+    </head>
+    <body>
+        <input type="text" name="" id="namadepan" class="middle" value="Rahmat">
+        <input type="text" name="" id="namabelakang" class="middle" value="Juniardi">
+        <button type="button" onclick="jalanscript()">jalan</button>
+
+        <script>
+            function jalanscript(){
+                console.log(document.querySelector('.middle')); //hanya mengambil class yang pertama muncul
+                console.log(document.querySelectorAll('.middle'))   //mengambil semua element class
+                console.log(document.querySelector('#namadepan'));
+                console.log(document.querySelector('#namabelakang'));
+            }
+        </script>
+
+
+    </body>
+</html>
