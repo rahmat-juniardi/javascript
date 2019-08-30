@@ -1,15 +1,8 @@
-function jalanSatu() {
-  var nilai = 3;
-  // if(nilai === 3){
-  //   console.log("Benar")
-  // }else if(nilai == 2){
-  //   console.log("Dua")
-  // }else{
-  //   console.log("Salah")
-  // }
-
-  if(nilai === 1)console.log("OK")
-  else console.log("Bukan")
+function data(x) {
+  if (x>20) console.log("x lebih besar dari 20");
+  else if(x>10) console.log("x lebih besar dari 10");
+  else if(x<10) console.log("x lebih kecil dari 10");
+  else console.log("x adalah 10");
 }
 
-jalanSatu()
+data(20);
