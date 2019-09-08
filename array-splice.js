@@ -4,7 +4,7 @@ function panggilSplice() {
   //kota.splice(2,1,'palembang')
   //  2 = menentukan lokasi , 1 = 1(satu) data diposisi tersebut akan DI-HAPUS
 
-  kota.splice(1,2);
+  kota.splice(2,2,"Solo");
   return kota;
 }
 

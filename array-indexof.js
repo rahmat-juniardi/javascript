@@ -7,4 +7,4 @@ function panggilIndexof() {
 
 }
 
-console.log(panggilIndexof())
+console.log(panggilIndexof());
